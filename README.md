@@ -4,6 +4,7 @@ simon game in javascript
 
 # ISSUES
 
+- no click (or touch for mobile) controls
 - user can play notes while simon is playing
 - balance is a little off, it gets real hard real fast
 - beeps won't play sometimes (it doesn't load fast enough, or the last one doesn't finish playing)
