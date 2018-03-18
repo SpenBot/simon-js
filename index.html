@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+
+  <head>
+
+    <meta charset="utf-8">
+    <title>SIMON</title>
+
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+
+    <audio id='c' src="./sounds/simon-c3.mp3"></audio>
+    <audio id='e' src="./sounds/simon-e3.mp3"></audio>
+    <audio id='g' src="./sounds/simon-g3.mp3"></audio>
+    <audio id='a' src="./sounds/simon-a3.mp3"></audio>
+
+  </head>
+
+
+  <body>
+
+    <h1>DO AS SIMON DO !</h1>
+
+    <div id="padsWindow">
+      <div id="padsTop">
+        <div id="pad1" class="pad">W</div>
+      </div>
+      <div id="padsBottom">
+        <div id="pad2" class="pad">A</div>
+        <div id="pad3" class="pad">S</div>
+        <div id="pad4" class="pad">D</div>
+      </div>
+    </div>
+
+    <div class="userButtons" id="startButton">START</div>
+    <h4 id="youDo" style="display: none;">[ NOW YOU DO ]</h4>
+    <p>[ press enter ]</p>
+
+    <div id="watchSimon" style="display: none;">[ WATCH SIMON ]</div>
+
+    <div class="winLossDiv" id="winScreen" style="display: none;">
+      <h3>YOU ARE CORRECT !</h3>
+      <div class="userButtons" id="nextButton">NEXT</div>
+    </div>
+
+    <h5></h5>
+
+    <script src="./script.js"></script>
+
+  </body>
+
+
+
+</html>
